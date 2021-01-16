@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>grid idea 01</title>
+	<script type="text/javascript" src="libraries/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="libraries/fotorama.js"></script>
+	<script type="text/javascript" src="js/projects.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fotorama.css">
+</head>
+<body>
+	<div class="video-container">
+		<!-- <div class="close" id="video-closer">x</div> -->
+		<div class="videoBuffer"></div>
+		<div class="video">
+			<video class="main">
+				<source src="videos/intro.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
+	<div class="closer-container">
+		<!-- <div class="close" id="close-closer">x</div> -->
+		<a href="RussellHuffmanMileagePlusRedesign.pdf"><h1 class="closer">Let's do something great, IBM</h1></a>
+	</div>
+	<div class="buffer"></div>
+	<div class="content-wrapper">
+		<div class="wrapper">
+			<div class="project-info">
+				<h1 class="pullout">Homes to Domes</h1>
+				<span class="pullout">Users:</span>
+				<p class="pullout" id="user">Community Members</p>
+				<span class="pullout">My Role:</span>
+				<p class="pullout" id="role">UX Designer, Visual Designer, Developer</p>
+			</div>
+			<div class="fotorama-container">
+				<div class="fotorama" data-width="100%" data-height="100%" data-loop="true" data-nav="false" data-autoplay="false" data-stopautoplayontouch="true" data-max-width="100%" data-arrows="true" data-nav="dots">
+						<!-- content goes here -->
+				</div>
+			</div>
+			<div class="square-wrapper">
+				<div class="square" query-id="1" id="start">
+					<h1 class="title">Start</h1>
+					<img class="thumb" src="null.png">
+				</div>
+				<div class="square" query-id="2">
+					<h1 class="title">Children at Play</h1>
+					<img class="thumb" src="covers/table.jpg">
+				</div>
+			</div>
+			<div class="content-container" id="one" container-id="1">
+				<!-- content would go here -->
+			</div>
+			<div class="square-wrapper">
+				<div class="square" query-id="3">
+					<h1 class="title">Disenfranchised</h1>
+					<img class="thumb" src="covers/domes.jpg">
+				</div>
+				<div class="square" query-id="4">
+					<h1 class="title">Children in Class</h1>
+					<img class="thumb" src="covers/explorers.jpg">
+				</div>
+			</div>
+			<div class="content-container" id="two" container-id="2">
+				<!-- content would go here 2 -->
+			</div>
+			<div class="square-wrapper">
+				<div class="square" query-id="5">
+					<h1 class="title">Citizens</h1>
+					<img class="thumb" src="covers/public.jpg">
+				</div>
+				<div class="square" query-id="6">
+					<h1 class="title">Researchers</h1>
+					<img class="thumb" src="covers/ithemba.jpg">
+				</div>
+			</div>
+			<div class="content-container" id="three" container-id="3">
+				<!-- content would go here 3 -->
+			</div>
+			<div class="square-wrapper">
+				<div class="square" query-id="7">
+					<h1 class="title">Porsche Enthusiasts</h1>
+					<img class="thumb" src="covers/porsche.jpg">
+				</div>
+				<div class="square" query-id="8"  id="end">
+					<h1 class="title">End</h1>
+					<img class="thumb" src="null.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/function.js"></script>
+</body>
+</html>
